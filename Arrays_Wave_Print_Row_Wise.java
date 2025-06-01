@@ -16,7 +16,7 @@ public class Arrays_Wave_Print_Row_Wise {
         rowprint(arr);
         
     }
-public static void rowprint(int[][]arr){
+public static void  rowprint(int[][]arr){
     for(int row = 0; row< arr.length; row++){
         if(row % 2 == 0){
             for(int col = 0; col < arr[row].length; col++){
